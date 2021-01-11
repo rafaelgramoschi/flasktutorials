@@ -1,0 +1,10 @@
+curl -X GET -G \
+  'https://api.foursquare.com/v2/venues/search' \
+    -d client_id="CLIENT_ID" \
+    -d client_secret="CLIENT_SECRET" \
+    -d v="20180323" \
+    -d ll="40.768349, -73.96575" \
+    -d query="salad" \
+    -d limit=1
+
+THIS WILL RESULT IN AN EMPTY QUERY, MEANING NO SALAD IN NEW YORK AS FOR 2021/01
