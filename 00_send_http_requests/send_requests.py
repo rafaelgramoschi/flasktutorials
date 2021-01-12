@@ -3,8 +3,7 @@ import urllib
 import json
 
 body = {
-	'client_id':'SZCOBMRGNFYUY2N3IQCJ5Z0FSHMNL1MFZX5OKUQVDDT2WUBY',
-	'client_secret':'GGXGUKIRW5ZS3WHY15MVLMKASIKV04BC3M5FEGQHUV5B4JV1'
+	"val":123
 }
 	
 
